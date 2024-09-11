@@ -15,7 +15,7 @@ function deal($deck) {
     $player1=[];
     $player2=[];
 
-    for ($i=0; $i < 2; $i++) { //<2 for two cards, so two loop  
+    for ($i=0; $i < 2; $i++) { //<2 for two cards, so two loop
         $player1[]=
             array_pop($deck);
         $player2[] =
