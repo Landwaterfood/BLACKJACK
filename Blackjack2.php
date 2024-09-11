@@ -11,8 +11,20 @@ foreach ($suits as $suit) {
 shuffle($deck);
 
 $player_1_hand = [];
-while()
-//$player_2_hand = [];
+function deal($deck) {
+    $player1=[];
+    $player2=[];
+
+    for ($i=0; $i < 2; $i++) { //<2 for two cards, so two loop  
+        $player1[]=
+            array_pop($deck);
+        $player2[] =
+            array_pop($deck);
+    }
+
+    return ['Player 1' => $player1, 'Player 2' => $player2];
+}
+
 
 
 
